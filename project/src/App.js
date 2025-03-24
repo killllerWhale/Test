@@ -7,9 +7,10 @@ function App() {
   return (
     <div className="App">
       <Container maxWidth="sm">
-        <Typography variant="h4" component="h1" gutterBottom>
-          React с Material-UI
-        </Typography>
+      // Изменим заголовок
+      <Typography variant="h4" component="h1" gutterBottom>
+        Обновленный React проект с Material-UI
+      </Typography>
         <div style={{ fontSize: '2rem', display: 'flex', gap: '20px', justifyContent: 'center', margin: '20px 0' }}>
           <FaReact />
           <FaGithub />
