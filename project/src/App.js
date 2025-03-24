@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Container, Typography } from '@mui/material';
+import { FaReact, FaGithub, FaCode } from 'react-icons/fa';
 import './App.css';
 
 function App() {
@@ -7,15 +8,17 @@ function App() {
     <div className="App">
       <Container maxWidth="sm">
         <Typography variant="h4" component="h1" gutterBottom>
-<<<<<<< HEAD
-          React  Material-UI
-=======
           React с Material-UI
->>>>>>> feature/package1
         </Typography>
+        <div style={{ fontSize: '2rem', display: 'flex', gap: '20px', justifyContent: 'center', margin: '20px 0' }}>
+          <FaReact />
+          <FaGithub />
+          <FaCode />
+        </div>
         <Button variant="contained" color="primary">
           Нажми меня
         </Button>
+        <p>Использование пакета иконок React Icons и Material-UI</p>
       </Container>
     </div>
   );
