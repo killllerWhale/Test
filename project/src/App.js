@@ -16,8 +16,9 @@ function App() {
           <FaGithub />
           <FaCode />
         </div>
+        // Исправляем текст кнопки
         <Button variant="contained" color="primary">
-          Нажми меня
+          Нажми на кнопку!
         </Button>
         <p>Использование пакета иконок React Icons и Material-UI</p>
       </Container>
